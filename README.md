@@ -1,3 +1,5 @@
+![squares](https://github.com/user-attachments/assets/703c25c9-37fe-4c96-bf6b-e0624c2fb819)
+
 # `squares`
 
 `squares` is a Python-based command-line application that finds the two closest square numbers to a given input number.
