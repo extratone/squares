@@ -1,0 +1,2 @@
+[console_scripts]
+squares = squares.squares:main

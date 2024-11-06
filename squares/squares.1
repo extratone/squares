@@ -1,0 +1,30 @@
+.TH squares 1 "October 2024" "squares-cli" "Find near square numbers in the command line"
+.SH NAME
+squares \- Find the closest square numbers above and below a given input.
+
+.SH SYNOPSIS
+.B squares
+[OPTIONS] <number>
+
+.SH DESCRIPTION
+The squares application finds the closest square numbers below and above a given input number.
+It accepts input from both standard input and command line arguments. Without any options, it
+outputs both the closest lower and higher square numbers, separated by a comma.
+
+.SH OPTIONS
+.TP
+.B \-\-below
+Output only the closest square below the input number.
+.TP
+.B \-\-above
+Output only the closest square above the input number.
+.TP
+.B \-\-both
+Output both closest squares (same as the default behavior).
+
+.SH EXAMPLES
+.nf
+squares 12          # Output: 9, 16
+squares --below 12  # Output: 9
+squares --above 12  # Output: 16
+.fi
